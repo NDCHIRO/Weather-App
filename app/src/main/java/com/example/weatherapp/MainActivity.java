@@ -46,7 +46,6 @@ public class MainActivity extends AppCompatActivity {
     }
     public class DownloadJson extends AsyncTask<String , Void , String>
     {
-
         @Override
         protected String doInBackground(String... urls) {
             String result="";
